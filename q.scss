@@ -1,0 +1,138 @@
+.wrp {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    background-color: black;
+    color: #6D6D6D;
+}
+
+h1 {
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 80px;
+    text-transform: uppercase;
+    background: linear-gradient($lg-title-main);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+h2 {
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    -webkit-text-fill-color: transparent;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.header_logo_title {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 70px;
+    letter-spacing: 0.105em;
+}
+
+&_price {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    color: $orange;
+
+    &_span {
+        font-size: 18px;
+    }
+}
+
+&_txt {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+&_txt {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+&_txt {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+&_txt {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 33px;
+    color: $white;
+}
+
+&_txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: $white;
+}
+
+&_txt {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+&_txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+&_title {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+&_list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    list-style-position: inside;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+    &_wrp {
+        margin-right: 90px;
+    }
+}
+
+&_txt {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+    &_span {
+        display: block;
+    }
+}

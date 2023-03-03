@@ -1,4 +1,4 @@
-;(function openMenu(selectorTop) {
+(function openMenu(selectorTop) {
     let header = document.querySelector(selectorTop);
     let btn = header.querySelector('.nav_btn');
     let nav = header.querySelector('.nav');
